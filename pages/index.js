@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import Wrapper from '../components/layout/Wrapper'
+import Wrapper from '../components/Wrapper'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -10,19 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Wrapper>
-        <h1 className="text-3xl font-bold underline">
-          Hello world!
-        </h1>
-        <p>
-          In ea eiusmod aliquip esse nostrud exercitation aliquip sit do excepteur labore eiusmod ipsum. Anim aute Lorem cupidatat Lorem laboris proident mollit dolor voluptate sit reprehenderit qui eu. Laboris laborum sint consequat voluptate ex velit fugiat ea proident cupidatat. Cillum enim aliqua mollit nisi et laborum. Non dolor proident nostrud aute anim proident culpa sint qui minim reprehenderit sit et aliqua. Lorem pariatur labore irure enim ea aliquip magna deserunt aliquip irure laboris. Sunt proident magna excepteur reprehenderit cillum elit quis.
-        </p>
-      </Wrapper>
-      <div className="flex justify-between">
-        <p>Alain &copy; { new Date().getFullYear()}</p>
-        <p>Terms & Conditions</p>
-      </div>
-      <Wrapper>
-        Culpa Lorem consequat laborum labore. Magna adipisicing laboris duis qui minim adipisicing eiusmod est. Est magna quis irure dolor minim ullamco magna cupidatat.
+        <Footer />
       </Wrapper>
     </div>
   )
