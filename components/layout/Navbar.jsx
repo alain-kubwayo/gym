@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <Wrapper>
             <nav>
-                Navigation Goes Here
+                Navigation 
             </nav>
         </Wrapper>
     )
